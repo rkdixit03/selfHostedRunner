@@ -22,7 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repository: rajesh-debug/linters
-          ref: v0.2
+          ref: v0.3
           token: ${{ secrets.GITHUB_TOKEN }}
           path: action.yml
       - name: Run My Action
