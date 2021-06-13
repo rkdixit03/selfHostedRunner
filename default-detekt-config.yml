@@ -204,7 +204,7 @@ exceptions:
       - RuntimeException
 
 formatting:
-  active: false
+  active: true
   android: false
   autoCorrect: true
   AnnotationOnSeparateLine:
@@ -454,7 +454,7 @@ potential-bugs:
     active: true
 
 style:
-  active: false
+  active: true
   CollapsibleIfStatements:
     active: true
   DataClassContainsFunctions:
